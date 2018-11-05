@@ -1,0 +1,34 @@
+{
+  "name": "mono-mud",
+  "version": "1.0.0",
+  "description": "Monolithic text based MUD engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/jessechoward/mono-mud.git",
+  "keywords": [],
+  "author": "Jesse Howard <jessechoward@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessechoward/mono-mud/issues"
+  },
+  "homepage": "https://github.com/jessechoward/mono-mud#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonschema": "^1.2.4",
+    "jsonwebtoken": "^8.3.0",
+    "pug": "^2.0.3",
+    "sequelize": "^4.41.0",
+    "sqlite3": "^4.0.3",
+    "winston": "^3.1.0",
+    "ws": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "tape": "^4.9.1"
+  }
+}

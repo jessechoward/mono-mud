@@ -1,0 +1,16 @@
+{
+    "extends": "google",
+    "env":{
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "rules":{
+        "no-tabs": "off",
+        "brace-style": ["warn", "allman"],
+        "indent": "off",
+        "eol-last": "off",
+        "comma-dangle": "off",
+        "max-len": ["warn", {"code": 120}]
+    }
+}
