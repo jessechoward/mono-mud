@@ -11,6 +11,7 @@
         "indent": "off",
         "eol-last": "off",
         "comma-dangle": "off",
-        "max-len": ["warn", {"code": 120}]
+        "max-len": ["warn", {"code": 120}],
+        "require-jsdoc": ["warn"]
     }
 }
