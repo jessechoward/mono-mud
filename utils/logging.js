@@ -23,7 +23,7 @@ const logger = Winston.createLogger(
 	// syslog level names
 	levels: Winston.config.syslog.levels,
 	// default logging level - supports environment variable overrides
-	level: process.env.LOG_LEVEL || 'info',
+	level: process.env.LOG_LEVEL || 'debug',
 	// silent mode - useful for testing
 	silent: process.env.MUTE_LOGGING || false,
 	transports:

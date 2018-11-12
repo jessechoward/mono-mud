@@ -1,6 +1,6 @@
 const express = require('express');
 const http = require('http');
-const logger = require('./utils/logging');
+const logger = require('../utils/logging');
 
 const app = express();
 // request logging
@@ -18,7 +18,7 @@ app.set('views', '../views');
 // static resources
 app.use('/static', express.static('../static'));
 // other routes
-app.use(require('../routes'));
+//app.use(require('../routes'));
 
 // export the web application
 module.exports = http.createServer(app);
